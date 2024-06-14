@@ -1,0 +1,106 @@
+Jun 14 15:46:04 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 14 15:46:04 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): A session is active. You cannot change the session module's ini settings at this time)
+Jun 14 15:46:04 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/mailer/sfMailer.class.php on line 21 (Declaration of sfMailer::send(Swift_Mime_Message $message, &$failedRecipients = NULL) should be compatible with Swift_Mailer::send(Swift_Mime_SimpleMessage $message, &$failedRecipients = NULL))
+Jun 14 15:46:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 14 15:46:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 14 15:46:04 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jun 14 15:46:04 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/controller/default/templates/indexSuccess.php"
+Jun 14 15:46:04 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/controller/default/templates/defaultLayout.php"
+Jun 14 15:46:04 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/controller/default/templates/defaultLayout.php"
+Jun 14 15:46:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 14 15:46:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 14 15:46:04 symfony [info] {sfWebDebugLogger} Configuration 42.25 ms (10)
+Jun 14 15:46:04 symfony [info] {sfWebDebugLogger} Factories 43.66 ms (1)
+Jun 14 15:46:04 symfony [info] {sfWebDebugLogger} Action "default/index" 0.02 ms (1)
+Jun 14 15:46:04 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 14.05 ms (1)
+Jun 14 15:46:04 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:46:04 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:46:04 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:46:04 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:46:04 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:46:04 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:46:04 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:46:04 symfony [info] {sfWebResponse} Send content (30564 o)
+Jun 14 15:48:21 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 14 15:48:21 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): A session is active. You cannot change the session module's ini settings at this time)
+Jun 14 15:48:21 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/mailer/sfMailer.class.php on line 21 (Declaration of sfMailer::send(Swift_Mime_Message $message, &$failedRecipients = NULL) should be compatible with Swift_Mailer::send(Swift_Mime_SimpleMessage $message, &$failedRecipients = NULL))
+Jun 14 15:48:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 14 15:48:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 14 15:48:21 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jun 14 15:48:21 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/controller/default/templates/indexSuccess.php"
+Jun 14 15:48:21 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/controller/default/templates/defaultLayout.php"
+Jun 14 15:48:21 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/controller/default/templates/defaultLayout.php"
+Jun 14 15:48:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 14 15:48:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 14 15:48:21 symfony [info] {sfWebDebugLogger} Configuration 6.07 ms (11)
+Jun 14 15:48:21 symfony [info] {sfWebDebugLogger} Factories 10.02 ms (1)
+Jun 14 15:48:21 symfony [info] {sfWebDebugLogger} Action "default/index" 0.05 ms (1)
+Jun 14 15:48:21 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 1.09 ms (1)
+Jun 14 15:48:21 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:48:21 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:48:21 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:48:21 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:48:21 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:48:21 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:48:21 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:48:21 symfony [info] {sfWebResponse} Send content (30841 o)
+Jun 14 15:48:27 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 14 15:48:27 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): A session is active. You cannot change the session module's ini settings at this time)
+Jun 14 15:48:27 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/mailer/sfMailer.class.php on line 21 (Declaration of sfMailer::send(Swift_Mime_Message $message, &$failedRecipients = NULL) should be compatible with Swift_Mailer::send(Swift_Mime_SimpleMessage $message, &$failedRecipients = NULL))
+Jun 14 15:48:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 14 15:48:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 14 15:48:27 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jun 14 15:48:27 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/controller/default/templates/indexSuccess.php"
+Jun 14 15:48:27 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/controller/default/templates/defaultLayout.php"
+Jun 14 15:48:27 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/controller/default/templates/defaultLayout.php"
+Jun 14 15:48:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 14 15:48:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 14 15:48:27 symfony [info] {sfWebDebugLogger} Configuration 4.44 ms (11)
+Jun 14 15:48:27 symfony [info] {sfWebDebugLogger} Factories 6.54 ms (1)
+Jun 14 15:48:27 symfony [info] {sfWebDebugLogger} Action "default/index" 0.02 ms (1)
+Jun 14 15:48:27 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 1.07 ms (1)
+Jun 14 15:48:27 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:48:27 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:48:27 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:48:27 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:48:27 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:48:27 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:48:27 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:48:27 symfony [info] {sfWebResponse} Send content (30840 o)
+Jun 14 15:48:37 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 14 15:48:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): A session is active. You cannot change the session module's ini settings at this time)
+Jun 14 15:48:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/mailer/sfMailer.class.php on line 21 (Declaration of sfMailer::send(Swift_Mime_Message $message, &$failedRecipients = NULL) should be compatible with Swift_Mailer::send(Swift_Mime_SimpleMessage $message, &$failedRecipients = NULL))
+Jun 14 15:48:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 14 15:48:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 14 15:48:37 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jun 14 15:48:37 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/controller/default/templates/indexSuccess.php"
+Jun 14 15:48:37 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/controller/default/templates/defaultLayout.php"
+Jun 14 15:48:37 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/controller/default/templates/defaultLayout.php"
+Jun 14 15:48:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 14 15:48:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 14 15:48:37 symfony [info] {sfWebDebugLogger} Configuration 7.07 ms (11)
+Jun 14 15:48:37 symfony [info] {sfWebDebugLogger} Factories 9.25 ms (1)
+Jun 14 15:48:37 symfony [info] {sfWebDebugLogger} Action "default/index" 0.03 ms (1)
+Jun 14 15:48:37 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 1.21 ms (1)
+Jun 14 15:48:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:48:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:48:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:48:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:48:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:48:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:48:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/yaml/sfYamlInline.php on line 139 (A non-numeric value encountered)
+Jun 14 15:48:37 symfony [info] {sfWebResponse} Send content (30840 o)
+Jun 14 15:51:03 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 14 15:51:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 14 15:51:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 14 15:51:03 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jun 14 15:51:03 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/controller/default/templates/indexSuccess.php"
+Jun 14 15:51:03 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/controller/default/templates/defaultLayout.php"
+Jun 14 15:51:03 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/controller/default/templates/defaultLayout.php"
+Jun 14 15:51:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 14 15:51:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 14 15:51:03 symfony [info] {sfWebDebugLogger} Configuration 3.23 ms (10)
+Jun 14 15:51:03 symfony [info] {sfWebDebugLogger} Factories 5.54 ms (1)
+Jun 14 15:51:03 symfony [info] {sfWebDebugLogger} Action "default/index" 0.02 ms (1)
+Jun 14 15:51:03 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 0.87 ms (1)
+Jun 14 15:51:03 symfony [info] {sfWebResponse} Send content (30840 o)

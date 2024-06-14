@@ -1,0 +1,9 @@
+{
+    "minimum-stability": "dev",
+    "prefer-stable": true, 
+    "require": 
+        { 
+            "php": ">=7.1", 
+            "symfony/symfony1": "1.4.*@dev" 
+        } 
+}
