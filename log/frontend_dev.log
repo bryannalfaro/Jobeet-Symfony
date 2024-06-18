@@ -862,3 +862,665 @@ Jun 18 10:15:33 symfony [info] {sfWebDebugLogger} Factories 14.25 ms (1)
 Jun 18 10:15:33 symfony [info] {sfWebDebugLogger} Action "job/index" 5.66 ms (1)
 Jun 18 10:15:33 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 1.49 ms (1)
 Jun 18 10:15:33 symfony [info] {sfWebResponse} Send content (34841 o)
+Jun 18 10:27:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /job with parameters array (  'module' => 'job',  'action' => 'index',)
+Jun 18 10:27:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:27:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:27:22 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jun 18 10:27:22 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:27:22 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job`
+Jun 18 10:27:22 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jun 18 10:27:22 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:27:22 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:27:22 symfony [info] {main} Get slot "title"
+Jun 18 10:27:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:27:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:27:22 symfony [info] {sfWebDebugLogger} Configuration 23.17 ms (11)
+Jun 18 10:27:22 symfony [info] {sfWebDebugLogger} Factories 27.36 ms (1)
+Jun 18 10:27:22 symfony [info] {sfWebDebugLogger} Action "job/index" 6.36 ms (1)
+Jun 18 10:27:22 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 2.74 ms (1)
+Jun 18 10:27:22 symfony [info] {sfWebResponse} Send content (34832 o)
+Jun 18 10:27:23 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /job with parameters array (  'module' => 'job',  'action' => 'index',)
+Jun 18 10:27:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:27:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:27:23 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jun 18 10:27:23 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:27:23 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job`
+Jun 18 10:27:23 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jun 18 10:27:23 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:27:23 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:27:23 symfony [info] {main} Get slot "title"
+Jun 18 10:27:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:27:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:27:23 symfony [info] {sfWebDebugLogger} Configuration 4.93 ms (11)
+Jun 18 10:27:23 symfony [info] {sfWebDebugLogger} Factories 5.73 ms (1)
+Jun 18 10:27:23 symfony [info] {sfWebDebugLogger} Action "job/index" 4.09 ms (1)
+Jun 18 10:27:23 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 0.79 ms (1)
+Jun 18 10:27:23 symfony [info] {sfWebResponse} Send content (34830 o)
+Jun 18 10:28:37 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /job with parameters array (  'module' => 'job',  'action' => 'index',)
+Jun 18 10:28:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:28:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:28:37 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jun 18 10:28:37 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:28:37 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job`
+Jun 18 10:28:37 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jun 18 10:28:37 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:28:37 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:28:37 symfony [info] {main} Get slot "title"
+Jun 18 10:28:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:28:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:28:37 symfony [info] {sfWebDebugLogger} Configuration 11.16 ms (11)
+Jun 18 10:28:37 symfony [info] {sfWebDebugLogger} Factories 14.14 ms (1)
+Jun 18 10:28:37 symfony [info] {sfWebDebugLogger} Action "job/index" 4.57 ms (1)
+Jun 18 10:28:37 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 1.62 ms (1)
+Jun 18 10:28:37 symfony [info] {sfWebResponse} Send content (34829 o)
+Jun 18 10:28:38 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 18 10:28:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:28:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:28:38 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jun 18 10:28:38 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/controller/default/templates/indexSuccess.php"
+Jun 18 10:28:38 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/controller/default/templates/defaultLayout.php"
+Jun 18 10:28:38 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/vendor/symfony/symfony1/lib/controller/default/templates/defaultLayout.php"
+Jun 18 10:28:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:28:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:28:38 symfony [info] {sfWebDebugLogger} Configuration 5.13 ms (11)
+Jun 18 10:28:38 symfony [info] {sfWebDebugLogger} Factories 6.06 ms (1)
+Jun 18 10:28:38 symfony [info] {sfWebDebugLogger} Action "default/index" 0.02 ms (1)
+Jun 18 10:28:38 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 1.83 ms (1)
+Jun 18 10:28:38 symfony [info] {sfWebResponse} Send content (30972 o)
+Jun 18 10:28:45 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /job with parameters array (  'module' => 'job',  'action' => 'index',)
+Jun 18 10:28:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:28:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:28:45 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jun 18 10:28:45 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:28:45 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job`
+Jun 18 10:28:45 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jun 18 10:28:45 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:28:45 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:28:45 symfony [info] {main} Get slot "title"
+Jun 18 10:28:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:28:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:28:45 symfony [info] {sfWebDebugLogger} Configuration 5.91 ms (11)
+Jun 18 10:28:45 symfony [info] {sfWebDebugLogger} Factories 8.27 ms (1)
+Jun 18 10:28:45 symfony [info] {sfWebDebugLogger} Action "job/index" 5.21 ms (1)
+Jun 18 10:28:45 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 2.76 ms (1)
+Jun 18 10:28:45 symfony [info] {sfWebResponse} Send content (34825 o)
+Jun 18 10:28:54 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Jun 18 10:28:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:28:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:28:54 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jun 18 10:28:54 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:28:54 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job`
+Jun 18 10:28:54 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jun 18 10:28:54 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:28:54 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:28:54 symfony [info] {main} Get slot "title"
+Jun 18 10:28:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:28:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:28:54 symfony [info] {sfWebDebugLogger} Configuration 8.09 ms (11)
+Jun 18 10:28:54 symfony [info] {sfWebDebugLogger} Factories 9.22 ms (1)
+Jun 18 10:28:54 symfony [info] {sfWebDebugLogger} Action "job/index" 5.76 ms (1)
+Jun 18 10:28:54 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 2.95 ms (1)
+Jun 18 10:28:54 symfony [info] {sfWebResponse} Send content (34800 o)
+Jun 18 10:35:26 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/show/id/1 with parameters array (  'module' => 'job',  'action' => 'show',  'id' => '1',)
+Jun 18 10:35:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:35:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:35:26 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Jun 18 10:35:26 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:35:26 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='1'
+Jun 18 10:35:26 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/showSuccess.php"
+Jun 18 10:35:26 symfony [info] {main} Set slot "title"
+Jun 18 10:35:26 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:35:26 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:35:26 symfony [info] {main} Get slot "title"
+Jun 18 10:35:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:35:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:35:26 symfony [info] {sfWebDebugLogger} Configuration 5.90 ms (11)
+Jun 18 10:35:26 symfony [info] {sfWebDebugLogger} Factories 8.16 ms (1)
+Jun 18 10:35:26 symfony [info] {sfWebDebugLogger} Action "job/show" 8.48 ms (1)
+Jun 18 10:35:26 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 1.52 ms (1)
+Jun 18 10:35:26 symfony [info] {sfWebResponse} Send content (35735 o)
+Jun 18 10:36:30 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/show/id/1 with parameters array (  'module' => 'job',  'action' => 'show',  'id' => '1',)
+Jun 18 10:36:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:36:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:36:30 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Jun 18 10:36:30 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:36:30 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='1'
+Jun 18 10:36:30 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/showSuccess.php"
+Jun 18 10:36:30 symfony [info] {main} Set slot "title"
+Jun 18 10:36:30 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:36:30 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:36:30 symfony [info] {main} Get slot "title"
+Jun 18 10:36:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:36:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:36:30 symfony [info] {sfWebDebugLogger} Configuration 11.88 ms (11)
+Jun 18 10:36:30 symfony [info] {sfWebDebugLogger} Factories 15.30 ms (1)
+Jun 18 10:36:30 symfony [info] {sfWebDebugLogger} Action "job/show" 7.42 ms (1)
+Jun 18 10:36:30 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 1.85 ms (1)
+Jun 18 10:36:30 symfony [info] {sfWebResponse} Send content (35737 o)
+Jun 18 10:40:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/show/id/1 with parameters array (  'module' => 'job',  'action' => 'show',  'id' => '1',)
+Jun 18 10:40:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:40:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:40:13 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Jun 18 10:40:13 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:40:13 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='1'
+Jun 18 10:40:13 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/showSuccess.php"
+Jun 18 10:40:13 symfony [info] {main} Set slot "title"
+Jun 18 10:40:13 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:40:13 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:40:13 symfony [info] {main} Get slot "title"
+Jun 18 10:40:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:40:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:40:13 symfony [info] {sfWebDebugLogger} Configuration 7.36 ms (11)
+Jun 18 10:40:13 symfony [info] {sfWebDebugLogger} Factories 8.77 ms (1)
+Jun 18 10:40:13 symfony [info] {sfWebDebugLogger} Action "job/show" 4.43 ms (1)
+Jun 18 10:40:13 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 1.71 ms (1)
+Jun 18 10:40:13 symfony [info] {sfWebResponse} Send content (35735 o)
+Jun 18 10:43:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/show/id/1 with parameters array (  'module' => 'job',  'action' => 'show',  'id' => '1',)
+Jun 18 10:43:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:43:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:43:59 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Jun 18 10:43:59 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:43:59 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='1'
+Jun 18 10:43:59 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/showSuccess.php"
+Jun 18 10:43:59 symfony [info] {main} Set slot "title"
+Jun 18 10:43:59 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:43:59 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:43:59 symfony [info] {main} Get slot "title"
+Jun 18 10:43:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:43:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:43:59 symfony [info] {sfWebDebugLogger} Configuration 14.97 ms (11)
+Jun 18 10:43:59 symfony [info] {sfWebDebugLogger} Factories 16.19 ms (1)
+Jun 18 10:43:59 symfony [info] {sfWebDebugLogger} Action "job/show" 3.49 ms (1)
+Jun 18 10:43:59 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 1.27 ms (1)
+Jun 18 10:43:59 symfony [info] {sfWebResponse} Send content (35736 o)
+Jun 18 10:44:04 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/show/id/1 with parameters array (  'module' => 'job',  'action' => 'show',  'id' => '1',)
+Jun 18 10:44:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:44:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:44:04 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Jun 18 10:44:04 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:44:04 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='1'
+Jun 18 10:44:04 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/showSuccess.php"
+Jun 18 10:44:04 symfony [info] {main} Set slot "title"
+Jun 18 10:44:04 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:44:04 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:44:04 symfony [info] {main} Get slot "title"
+Jun 18 10:44:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:44:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:44:04 symfony [info] {sfWebDebugLogger} Configuration 5.62 ms (11)
+Jun 18 10:44:04 symfony [info] {sfWebDebugLogger} Factories 7.94 ms (1)
+Jun 18 10:44:04 symfony [info] {sfWebDebugLogger} Action "job/show" 4.93 ms (1)
+Jun 18 10:44:04 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 1.79 ms (1)
+Jun 18 10:44:04 symfony [info] {sfWebResponse} Send content (35675 o)
+Jun 18 10:44:06 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Jun 18 10:44:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:44:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:44:06 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jun 18 10:44:06 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:44:06 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job`
+Jun 18 10:44:06 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jun 18 10:44:06 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:44:06 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:44:06 symfony [info] {main} Get slot "title"
+Jun 18 10:44:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:44:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:44:06 symfony [info] {sfWebDebugLogger} Configuration 4.44 ms (11)
+Jun 18 10:44:06 symfony [info] {sfWebDebugLogger} Factories 5.12 ms (1)
+Jun 18 10:44:06 symfony [info] {sfWebDebugLogger} Action "job/index" 4.84 ms (1)
+Jun 18 10:44:06 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 1.09 ms (1)
+Jun 18 10:44:06 symfony [info] {sfWebResponse} Send content (34880 o)
+Jun 18 10:44:07 symfony [info] {sfPatternRouting} Match route "job_show_user" (/job/:company/:location/:id/:position) for /job/Sensio+Labs/Paris,+France/1/Web+Developer with parameters array (  'module' => 'job',  'action' => 'show',  'company' => 'Sensio Labs',  'location' => 'Paris, France',  'id' => '1',  'position' => 'Web Developer',)
+Jun 18 10:44:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:44:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:44:07 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Jun 18 10:44:07 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:44:07 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='1'
+Jun 18 10:44:07 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/showSuccess.php"
+Jun 18 10:44:07 symfony [info] {main} Set slot "title"
+Jun 18 10:44:07 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:44:07 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:44:07 symfony [info] {main} Get slot "title"
+Jun 18 10:44:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:44:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:44:07 symfony [info] {sfWebDebugLogger} Configuration 4.56 ms (11)
+Jun 18 10:44:07 symfony [info] {sfWebDebugLogger} Factories 6.02 ms (1)
+Jun 18 10:44:07 symfony [info] {sfWebDebugLogger} Action "job/show" 4.92 ms (1)
+Jun 18 10:44:07 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 1.49 ms (1)
+Jun 18 10:44:07 symfony [info] {sfWebResponse} Send content (36225 o)
+Jun 18 10:48:55 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Jun 18 10:48:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:48:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:48:55 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jun 18 10:48:55 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:48:55 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job`
+Jun 18 10:48:55 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jun 18 10:49:10 symfony [info] {sfPatternRouting} Match route "job_show_user" (/job/:company_slug/:location_slug/:id/:position_slug) for /job/Sensio+Labs/Paris,+France/1/Web+Developer with parameters array (  'module' => 'job',  'action' => 'show',  'company_slug' => 'Sensio Labs',  'location_slug' => 'Paris, France',  'id' => '1',  'position_slug' => 'Web Developer',)
+Jun 18 10:49:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:49:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:49:10 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Jun 18 10:49:10 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:49:10 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='1'
+Jun 18 10:49:10 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/showSuccess.php"
+Jun 18 10:49:10 symfony [info] {main} Set slot "title"
+Jun 18 10:49:10 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:49:10 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:49:10 symfony [info] {main} Get slot "title"
+Jun 18 10:49:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:49:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:49:10 symfony [info] {sfWebDebugLogger} Configuration 6.61 ms (11)
+Jun 18 10:49:10 symfony [info] {sfWebDebugLogger} Factories 8.81 ms (1)
+Jun 18 10:49:10 symfony [info] {sfWebDebugLogger} Action "job/show" 3.24 ms (1)
+Jun 18 10:49:10 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 1.43 ms (1)
+Jun 18 10:49:10 symfony [info] {sfWebResponse} Send content (36270 o)
+Jun 18 10:49:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Jun 18 10:49:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:49:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:49:12 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jun 18 10:49:12 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:49:12 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job`
+Jun 18 10:49:12 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jun 18 10:49:12 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:49:12 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:49:12 symfony [info] {main} Get slot "title"
+Jun 18 10:49:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:49:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:49:12 symfony [info] {sfWebDebugLogger} Configuration 5.41 ms (11)
+Jun 18 10:49:12 symfony [info] {sfWebDebugLogger} Factories 6.53 ms (1)
+Jun 18 10:49:12 symfony [info] {sfWebDebugLogger} Action "job/index" 2.71 ms (1)
+Jun 18 10:49:12 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 1.29 ms (1)
+Jun 18 10:49:12 symfony [info] {sfWebResponse} Send content (34908 o)
+Jun 18 10:49:16 symfony [info] {sfPatternRouting} Match route "job_show_user" (/job/:company_slug/:location_slug/:id/:position_slug) for /job/sensio-labs/paris-france/1/web-developer with parameters array (  'module' => 'job',  'action' => 'show',  'company_slug' => 'sensio-labs',  'location_slug' => 'paris-france',  'id' => '1',  'position_slug' => 'web-developer',)
+Jun 18 10:49:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:49:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:49:16 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Jun 18 10:49:16 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:49:16 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='1'
+Jun 18 10:49:16 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/showSuccess.php"
+Jun 18 10:49:16 symfony [info] {main} Set slot "title"
+Jun 18 10:49:16 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:49:16 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:49:16 symfony [info] {main} Get slot "title"
+Jun 18 10:49:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:49:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:49:16 symfony [info] {sfWebDebugLogger} Configuration 4.44 ms (11)
+Jun 18 10:49:16 symfony [info] {sfWebDebugLogger} Factories 5.33 ms (1)
+Jun 18 10:49:16 symfony [info] {sfWebDebugLogger} Action "job/show" 4.76 ms (1)
+Jun 18 10:49:16 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 1.58 ms (1)
+Jun 18 10:49:16 symfony [info] {sfWebResponse} Send content (36201 o)
+Jun 18 10:53:50 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Jun 18 10:53:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:53:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:53:50 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jun 18 10:53:50 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:53:50 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job`
+Jun 18 10:53:50 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jun 18 10:53:50 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:53:50 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:53:50 symfony [info] {main} Get slot "title"
+Jun 18 10:53:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:53:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:53:50 symfony [info] {sfWebDebugLogger} Configuration 8.51 ms (11)
+Jun 18 10:53:50 symfony [info] {sfWebDebugLogger} Factories 10.50 ms (1)
+Jun 18 10:53:50 symfony [info] {sfWebDebugLogger} Action "job/index" 3.95 ms (1)
+Jun 18 10:53:50 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 2.04 ms (1)
+Jun 18 10:53:50 symfony [info] {sfWebResponse} Send content (34906 o)
+Jun 18 10:53:51 symfony [info] {sfPatternRouting} Match route "job_show_user" (/job/:company_slug/:location_slug/:id/:position_slug) for /job/sensio-labs/paris-france/1/web-developer with parameters array (  'module' => 'job',  'action' => 'show',  'company_slug' => 'sensio-labs',  'location_slug' => 'paris-france',  'id' => '1',  'position_slug' => 'web-developer',)
+Jun 18 10:53:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:53:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:53:51 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Jun 18 10:53:51 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:53:51 symfony [debug] {sfPropelLogger} time:  0.003 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='1' LIMIT 1
+Jun 18 10:53:51 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "job/show".
+Jun 18 10:53:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jun 18 10:53:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:53:51 symfony [info] {sfWebDebugLogger} Configuration 4.95 ms (10)
+Jun 18 10:53:51 symfony [info] {sfWebDebugLogger} Factories 6.15 ms (1)
+Jun 18 10:53:51 symfony [info] {sfWebDebugLogger} Action "job/show" 16.95 ms (1)
+Jun 18 10:54:43 symfony [info] {sfPatternRouting} Match route "job_show_user" (/job/:company_slug/:location_slug/:id/:position_slug) for /job/sensio-labs/paris-france/1/web-developer with parameters array (  'module' => 'job',  'action' => 'show',  'company_slug' => 'sensio-labs',  'location_slug' => 'paris-france',  'id' => '1',  'position_slug' => 'web-developer',)
+Jun 18 10:54:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:54:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:54:43 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Jun 18 10:54:43 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:54:43 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='1' LIMIT 1
+Jun 18 10:54:43 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/showSuccess.php"
+Jun 18 10:54:43 symfony [info] {main} Set slot "title"
+Jun 18 10:54:43 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:54:43 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:54:43 symfony [info] {main} Get slot "title"
+Jun 18 10:54:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:54:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:54:43 symfony [info] {sfWebDebugLogger} Configuration 6.00 ms (11)
+Jun 18 10:54:43 symfony [info] {sfWebDebugLogger} Factories 8.09 ms (1)
+Jun 18 10:54:43 symfony [info] {sfWebDebugLogger} Action "job/show" 3.29 ms (1)
+Jun 18 10:54:43 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 1.11 ms (1)
+Jun 18 10:54:43 symfony [info] {sfWebResponse} Send content (36295 o)
+Jun 18 10:54:45 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Jun 18 10:54:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:54:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:54:45 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jun 18 10:54:45 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:54:45 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job`
+Jun 18 10:54:45 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jun 18 10:54:45 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:54:45 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:54:45 symfony [info] {main} Get slot "title"
+Jun 18 10:54:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:54:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:54:45 symfony [info] {sfWebDebugLogger} Configuration 5.47 ms (11)
+Jun 18 10:54:45 symfony [info] {sfWebDebugLogger} Factories 6.20 ms (1)
+Jun 18 10:54:45 symfony [info] {sfWebDebugLogger} Action "job/index" 3.53 ms (1)
+Jun 18 10:54:45 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 0.83 ms (1)
+Jun 18 10:54:46 symfony [info] {sfWebResponse} Send content (34905 o)
+Jun 18 10:54:49 symfony [info] {sfPatternRouting} Match route "job_show_user" (/job/:company_slug/:location_slug/:id/:position_slug) for /job/sensio-labs/paris-france/1/web-developer with parameters array (  'module' => 'job',  'action' => 'show',  'company_slug' => 'sensio-labs',  'location_slug' => 'paris-france',  'id' => '1',  'position_slug' => 'web-developer',)
+Jun 18 10:54:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:54:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:54:49 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Jun 18 10:54:49 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:54:49 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='1' LIMIT 1
+Jun 18 10:54:49 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/showSuccess.php"
+Jun 18 10:54:49 symfony [info] {main} Set slot "title"
+Jun 18 10:54:49 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:54:49 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:54:49 symfony [info] {main} Get slot "title"
+Jun 18 10:54:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:54:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:54:49 symfony [info] {sfWebDebugLogger} Configuration 5.22 ms (11)
+Jun 18 10:54:49 symfony [info] {sfWebDebugLogger} Factories 6.89 ms (1)
+Jun 18 10:54:49 symfony [info] {sfWebDebugLogger} Action "job/show" 3.31 ms (1)
+Jun 18 10:54:49 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 0.90 ms (1)
+Jun 18 10:54:49 symfony [info] {sfWebResponse} Send content (36294 o)
+Jun 18 10:54:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /7 with parameters array (  'module' => '7',  'action' => 'index',)
+Jun 18 10:54:58 symfony [info] {sfFrontWebController} Action "7/index" does not exist
+Jun 18 10:54:58 symfony [err] {sfError404Exception} Action "7/index" does not exist.
+Jun 18 10:54:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jun 18 10:54:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:54:58 symfony [info] {sfWebDebugLogger} Configuration 4.61 ms (7)
+Jun 18 10:54:58 symfony [info] {sfWebDebugLogger} Factories 5.86 ms (1)
+Jun 18 10:56:24 symfony [info] {sfPatternRouting} Match route "job_show_user" (/job/:company_slug/:location_slug/:id/:position_slug) for /job/sensio-labs/paris-france/1/web-developer with parameters array (  'module' => 'job',  'action' => 'show',  'company_slug' => 'sensio-labs',  'location_slug' => 'paris-france',  'id' => '1',  'position_slug' => 'web-developer',)
+Jun 18 10:56:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:56:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:56:24 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Jun 18 10:56:24 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:56:24 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='1' LIMIT 1
+Jun 18 10:56:24 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/showSuccess.php"
+Jun 18 10:56:24 symfony [info] {main} Set slot "title"
+Jun 18 10:56:24 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:56:24 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:56:24 symfony [info] {main} Get slot "title"
+Jun 18 10:56:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:56:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:56:24 symfony [info] {sfWebDebugLogger} Configuration 4.14 ms (11)
+Jun 18 10:56:24 symfony [info] {sfWebDebugLogger} Factories 5.18 ms (1)
+Jun 18 10:56:24 symfony [info] {sfWebDebugLogger} Action "job/show" 3.64 ms (1)
+Jun 18 10:56:24 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 1.53 ms (1)
+Jun 18 10:56:24 symfony [info] {sfWebResponse} Send content (36295 o)
+Jun 18 10:56:36 symfony [info] {sfPatternRouting} Match route "job_show_user" (/job/:company_slug/:location_slug/:id/:position_slug) for /job/sensio-labs/paris-france/6/web-developer with parameters array (  'module' => 'job',  'action' => 'show',  'company_slug' => 'sensio-labs',  'location_slug' => 'paris-france',  'id' => '6',  'position_slug' => 'web-developer',)
+Jun 18 10:56:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:56:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:56:36 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Jun 18 10:56:36 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:56:36 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='6' LIMIT 1
+Jun 18 10:56:36 symfony [err] {sfError404Exception} Unable to find the JobeetJobPeer object with the following parameters "array (  'company_slug' => 'sensio-labs',  'location_slug' => 'paris-france',  'id' => '6',  'position_slug' => 'web-developer',)").
+Jun 18 10:56:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jun 18 10:56:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:56:36 symfony [info] {sfWebDebugLogger} Configuration 8.91 ms (10)
+Jun 18 10:56:36 symfony [info] {sfWebDebugLogger} Factories 12.42 ms (1)
+Jun 18 10:56:36 symfony [info] {sfWebDebugLogger} Action "job/show" 13.41 ms (1)
+Jun 18 10:57:26 symfony [info] {sfPatternRouting} Match route "job_show_user" (/job/:company_slug/:location_slug/:id/:position_slug) for /job/sensio-labs/paris-france/6/web-developer with parameters array (  'module' => 'job',  'action' => 'show',  'company_slug' => 'sensio-labs',  'location_slug' => 'paris-france',  'id' => '6',  'position_slug' => 'web-developer',)
+Jun 18 10:57:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:57:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:57:26 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Jun 18 10:57:26 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:57:26 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='6' LIMIT 1
+Jun 18 10:57:26 symfony [err] {sfError404Exception} Unable to find the JobeetJobPeer object with the following parameters "array (  'company_slug' => 'sensio-labs',  'location_slug' => 'paris-france',  'id' => '6',  'position_slug' => 'web-developer',)").
+Jun 18 10:57:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jun 18 10:57:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:57:26 symfony [info] {sfWebDebugLogger} Configuration 6.34 ms (10)
+Jun 18 10:57:26 symfony [info] {sfWebDebugLogger} Factories 8.27 ms (1)
+Jun 18 10:57:26 symfony [info] {sfWebDebugLogger} Action "job/show" 10.48 ms (1)
+Jun 18 10:57:36 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/job/" (/).
+Jun 18 10:57:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jun 18 10:57:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:57:36 symfony [info] {sfWebDebugLogger} Configuration 5.36 ms (7)
+Jun 18 10:57:36 symfony [info] {sfWebDebugLogger} Factories 6.91 ms (1)
+Jun 18 10:57:46 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Jun 18 10:57:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:57:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:57:46 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jun 18 10:57:46 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:57:46 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job`
+Jun 18 10:57:46 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jun 18 10:57:46 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:57:46 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:57:46 symfony [info] {main} Get slot "title"
+Jun 18 10:57:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:57:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:57:46 symfony [info] {sfWebDebugLogger} Configuration 6.10 ms (11)
+Jun 18 10:57:46 symfony [info] {sfWebDebugLogger} Factories 7.29 ms (1)
+Jun 18 10:57:46 symfony [info] {sfWebDebugLogger} Action "job/index" 4.38 ms (1)
+Jun 18 10:57:46 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 1.52 ms (1)
+Jun 18 10:57:47 symfony [info] {sfWebResponse} Send content (34733 o)
+Jun 18 10:57:48 symfony [info] {sfPatternRouting} Match route "job_show_user" (/job/:company_slug/:location_slug/:id/:position_slug) for /job/sensio-labs/paris-france/1/web-developer with parameters array (  'module' => 'job',  'action' => 'show',  'company_slug' => 'sensio-labs',  'location_slug' => 'paris-france',  'id' => '1',  'position_slug' => 'web-developer',)
+Jun 18 10:57:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:57:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:57:48 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Jun 18 10:57:48 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:57:48 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='1' LIMIT 1
+Jun 18 10:57:48 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/showSuccess.php"
+Jun 18 10:57:48 symfony [info] {main} Set slot "title"
+Jun 18 10:57:48 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:57:48 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:57:48 symfony [info] {main} Get slot "title"
+Jun 18 10:57:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:57:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:57:48 symfony [info] {sfWebDebugLogger} Configuration 4.88 ms (11)
+Jun 18 10:57:48 symfony [info] {sfWebDebugLogger} Factories 5.98 ms (1)
+Jun 18 10:57:48 symfony [info] {sfWebDebugLogger} Action "job/show" 3.37 ms (1)
+Jun 18 10:57:48 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 0.68 ms (1)
+Jun 18 10:57:48 symfony [info] {sfWebResponse} Send content (36294 o)
+Jun 18 10:57:51 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Jun 18 10:57:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:57:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:57:51 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jun 18 10:57:51 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:57:51 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job`
+Jun 18 10:57:51 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jun 18 10:57:51 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:57:51 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:57:51 symfony [info] {main} Get slot "title"
+Jun 18 10:57:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:57:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:57:51 symfony [info] {sfWebDebugLogger} Configuration 5.08 ms (11)
+Jun 18 10:57:51 symfony [info] {sfWebDebugLogger} Factories 6.12 ms (1)
+Jun 18 10:57:51 symfony [info] {sfWebDebugLogger} Action "job/index" 3.42 ms (1)
+Jun 18 10:57:51 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 0.80 ms (1)
+Jun 18 10:57:51 symfony [info] {sfWebResponse} Send content (34733 o)
+Jun 18 10:57:52 symfony [info] {sfPatternRouting} Match route "job_show_user" (/job/:company_slug/:location_slug/:id/:position_slug) for /job/sensio-labs/paris-france/1/web-developer with parameters array (  'module' => 'job',  'action' => 'show',  'company_slug' => 'sensio-labs',  'location_slug' => 'paris-france',  'id' => '1',  'position_slug' => 'web-developer',)
+Jun 18 10:57:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:57:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:57:52 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Jun 18 10:57:52 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:57:52 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='1' LIMIT 1
+Jun 18 10:57:52 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/showSuccess.php"
+Jun 18 10:57:52 symfony [info] {main} Set slot "title"
+Jun 18 10:57:52 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:57:52 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 10:57:52 symfony [info] {main} Get slot "title"
+Jun 18 10:57:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 10:57:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:57:52 symfony [info] {sfWebDebugLogger} Configuration 6.67 ms (11)
+Jun 18 10:57:52 symfony [info] {sfWebDebugLogger} Factories 7.58 ms (1)
+Jun 18 10:57:52 symfony [info] {sfWebDebugLogger} Action "job/show" 3.22 ms (1)
+Jun 18 10:57:52 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 1.23 ms (1)
+Jun 18 10:57:52 symfony [info] {sfWebResponse} Send content (36293 o)
+Jun 18 10:57:55 symfony [info] {sfPatternRouting} Match route "job_show_user" (/job/:company_slug/:location_slug/:id/:position_slug) for /job/sensio-labs/paris-france/6/web-developer with parameters array (  'module' => 'job',  'action' => 'show',  'company_slug' => 'sensio-labs',  'location_slug' => 'paris-france',  'id' => '6',  'position_slug' => 'web-developer',)
+Jun 18 10:57:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 10:57:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 10:57:55 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Jun 18 10:57:55 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 10:57:55 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='6' LIMIT 1
+Jun 18 10:57:55 symfony [err] {sfError404Exception} Unable to find the JobeetJobPeer object with the following parameters "array (  'company_slug' => 'sensio-labs',  'location_slug' => 'paris-france',  'id' => '6',  'position_slug' => 'web-developer',)").
+Jun 18 10:57:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jun 18 10:57:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 10:57:55 symfony [info] {sfWebDebugLogger} Configuration 4.90 ms (10)
+Jun 18 10:57:55 symfony [info] {sfWebDebugLogger} Factories 6.44 ms (1)
+Jun 18 10:57:55 symfony [info] {sfWebDebugLogger} Action "job/show" 7.96 ms (1)
+Jun 18 11:02:53 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/job/" (/).
+Jun 18 11:02:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jun 18 11:02:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 11:02:53 symfony [info] {sfWebDebugLogger} Configuration 15.39 ms (7)
+Jun 18 11:02:53 symfony [info] {sfWebDebugLogger} Factories 17.72 ms (1)
+Jun 18 11:02:59 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/job/" (/).
+Jun 18 11:02:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jun 18 11:02:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 11:02:59 symfony [info] {sfWebDebugLogger} Configuration 7.23 ms (7)
+Jun 18 11:02:59 symfony [info] {sfWebDebugLogger} Factories 10.29 ms (1)
+Jun 18 11:03:05 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/job/" (/).
+Jun 18 11:03:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jun 18 11:03:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 11:03:05 symfony [info] {sfWebDebugLogger} Configuration 5.14 ms (7)
+Jun 18 11:03:05 symfony [info] {sfWebDebugLogger} Factories 6.44 ms (1)
+Jun 18 11:03:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Jun 18 11:03:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 11:03:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 11:03:13 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jun 18 11:03:13 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 11:03:13 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job`
+Jun 18 11:03:13 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jun 18 11:03:13 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 11:03:13 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 11:03:13 symfony [info] {main} Get slot "title"
+Jun 18 11:03:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 11:03:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 11:03:13 symfony [info] {sfWebDebugLogger} Configuration 4.80 ms (11)
+Jun 18 11:03:13 symfony [info] {sfWebDebugLogger} Factories 6.01 ms (1)
+Jun 18 11:03:13 symfony [info] {sfWebDebugLogger} Action "job/index" 4.83 ms (1)
+Jun 18 11:03:13 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 1.86 ms (1)
+Jun 18 11:03:13 symfony [info] {sfWebResponse} Send content (34736 o)
+Jun 18 11:03:15 symfony [info] {sfPatternRouting} Match route "job_show_user" (/job/:company_slug/:location_slug/:id/:position_slug) for /job/sensio-labs/paris-france/1/web-developer with parameters array (  'module' => 'job',  'action' => 'show',  'company_slug' => 'sensio-labs',  'location_slug' => 'paris-france',  'id' => '1',  'position_slug' => 'web-developer',)
+Jun 18 11:03:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 11:03:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 11:03:15 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Jun 18 11:03:15 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 11:03:15 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='1' LIMIT 1
+Jun 18 11:03:15 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/showSuccess.php"
+Jun 18 11:03:15 symfony [info] {main} Set slot "title"
+Jun 18 11:03:15 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 11:03:15 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 11:03:15 symfony [info] {main} Get slot "title"
+Jun 18 11:03:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 11:03:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 11:03:15 symfony [info] {sfWebDebugLogger} Configuration 6.27 ms (11)
+Jun 18 11:03:15 symfony [info] {sfWebDebugLogger} Factories 7.22 ms (1)
+Jun 18 11:03:15 symfony [info] {sfWebDebugLogger} Action "job/show" 3.58 ms (1)
+Jun 18 11:03:15 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 0.87 ms (1)
+Jun 18 11:03:15 symfony [info] {sfWebResponse} Send content (36294 o)
+Jun 18 11:03:19 symfony [info] {sfPatternRouting} Match route "job_edit" (/job/:id/edit.:sf_format) for /job/1/edit with parameters array (  'module' => 'job',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+Jun 18 11:03:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 11:03:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 11:03:19 symfony [info] {jobActions} Call "jobActions->executeEdit()"
+Jun 18 11:03:19 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 11:03:19 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='1'
+Jun 18 11:03:19 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/editSuccess.php"
+Jun 18 11:03:19 symfony [info] {sfPartialView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/_form.php"
+Jun 18 11:03:19 symfony [debug] {sfPropelLogger} time:  0.004 sec | slow:  NO | mem:    4.0 MB | mempeak:    4.0 MB | memdelta:      0.0 B | SELECT jobeet_category.ID, jobeet_category.NAME FROM `jobeet_category`
+Jun 18 11:03:19 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 11:03:19 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 11:03:19 symfony [info] {main} Get slot "title"
+Jun 18 11:03:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 11:03:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 11:03:19 symfony [info] {sfWebDebugLogger} Configuration 4.22 ms (11)
+Jun 18 11:03:19 symfony [info] {sfWebDebugLogger} Factories 5.23 ms (1)
+Jun 18 11:03:19 symfony [info] {sfWebDebugLogger} Action "job/edit" 9.56 ms (1)
+Jun 18 11:03:19 symfony [info] {sfWebDebugLogger} View "Success" for "job/edit" 10.97 ms (1)
+Jun 18 11:03:19 symfony [info] {sfWebDebugLogger} Partial "job/_form" 9.32 ms (1)
+Jun 18 11:03:20 symfony [info] {sfWebResponse} Send content (63813 o)
+Jun 18 11:04:52 symfony [info] {sfPatternRouting} Match route "job_show_user" (/job/:company_slug/:location_slug/:id/:position_slug) for /job/sensio-labs/paris-france/1/web-developer with parameters array (  'module' => 'job',  'action' => 'show',  'company_slug' => 'sensio-labs',  'location_slug' => 'paris-france',  'id' => '1',  'position_slug' => 'web-developer',)
+Jun 18 11:04:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 11:04:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 11:04:52 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Jun 18 11:04:52 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 11:04:52 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='1' LIMIT 1
+Jun 18 11:04:52 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/showSuccess.php"
+Jun 18 11:04:52 symfony [info] {main} Set slot "title"
+Jun 18 11:04:52 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 11:04:52 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 11:04:52 symfony [info] {main} Get slot "title"
+Jun 18 11:04:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 11:04:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 11:04:52 symfony [info] {sfWebDebugLogger} Configuration 5.93 ms (11)
+Jun 18 11:04:52 symfony [info] {sfWebDebugLogger} Factories 7.79 ms (1)
+Jun 18 11:04:52 symfony [info] {sfWebDebugLogger} Action "job/show" 4.51 ms (1)
+Jun 18 11:04:52 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 1.45 ms (1)
+Jun 18 11:04:52 symfony [info] {sfWebResponse} Send content (36293 o)
+Jun 18 11:05:33 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Jun 18 11:05:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 11:05:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 11:05:33 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jun 18 11:05:33 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 11:05:33 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job`
+Jun 18 11:05:33 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jun 18 11:05:33 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 11:05:33 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 11:05:33 symfony [info] {main} Get slot "title"
+Jun 18 11:05:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 11:05:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 11:05:33 symfony [info] {sfWebDebugLogger} Configuration 10.53 ms (11)
+Jun 18 11:05:33 symfony [info] {sfWebDebugLogger} Factories 12.86 ms (1)
+Jun 18 11:05:33 symfony [info] {sfWebDebugLogger} Action "job/index" 3.33 ms (1)
+Jun 18 11:05:33 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 0.88 ms (1)
+Jun 18 11:05:34 symfony [info] {sfWebResponse} Send content (34910 o)
+Jun 18 11:05:35 symfony [info] {sfPatternRouting} Match route "job_show_user" (/job/:company_slug/:location_slug/:id/:position_slug) for /job/sensio-labs/paris-france/1/web-developer with parameters array (  'module' => 'job',  'action' => 'show',  'company_slug' => 'sensio-labs',  'location_slug' => 'paris-france',  'id' => '1',  'position_slug' => 'web-developer',)
+Jun 18 11:05:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 11:05:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 11:05:35 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Jun 18 11:05:35 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 11:05:35 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='1' LIMIT 1
+Jun 18 11:05:35 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/showSuccess.php"
+Jun 18 11:05:35 symfony [info] {main} Set slot "title"
+Jun 18 11:05:35 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 11:05:35 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 11:05:35 symfony [info] {main} Get slot "title"
+Jun 18 11:05:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 11:05:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 11:05:35 symfony [info] {sfWebDebugLogger} Configuration 4.55 ms (11)
+Jun 18 11:05:35 symfony [info] {sfWebDebugLogger} Factories 5.83 ms (1)
+Jun 18 11:05:35 symfony [info] {sfWebDebugLogger} Action "job/show" 3.40 ms (1)
+Jun 18 11:05:35 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 1.39 ms (1)
+Jun 18 11:05:35 symfony [info] {sfWebResponse} Send content (36295 o)
+Jun 18 11:05:37 symfony [info] {sfPatternRouting} Match route "job_edit" (/job/:id/edit.:sf_format) for /job/1/edit with parameters array (  'module' => 'job',  'action' => 'edit',  'sf_format' => 'html',  'id' => '1',)
+Jun 18 11:05:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 11:05:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 11:05:37 symfony [info] {jobActions} Call "jobActions->executeEdit()"
+Jun 18 11:05:37 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 11:05:37 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job` WHERE jobeet_job.ID='1'
+Jun 18 11:05:37 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/editSuccess.php"
+Jun 18 11:05:37 symfony [info] {sfPartialView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/_form.php"
+Jun 18 11:05:37 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    4.0 MB | mempeak:    4.0 MB | memdelta:      0.0 B | SELECT jobeet_category.ID, jobeet_category.NAME FROM `jobeet_category`
+Jun 18 11:05:37 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 11:05:37 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 11:05:37 symfony [info] {main} Get slot "title"
+Jun 18 11:05:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 11:05:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 11:05:37 symfony [info] {sfWebDebugLogger} Configuration 5.76 ms (11)
+Jun 18 11:05:37 symfony [info] {sfWebDebugLogger} Factories 6.80 ms (1)
+Jun 18 11:05:37 symfony [info] {sfWebDebugLogger} Action "job/edit" 4.22 ms (1)
+Jun 18 11:05:37 symfony [info] {sfWebDebugLogger} View "Success" for "job/edit" 5.15 ms (1)
+Jun 18 11:05:37 symfony [info] {sfWebDebugLogger} Partial "job/_form" 3.99 ms (1)
+Jun 18 11:05:38 symfony [info] {sfWebResponse} Send content (63812 o)
+Jun 18 11:05:42 symfony [info] {sfPatternRouting} Match route "job" (/job.:sf_format) for /job with parameters array (  'module' => 'job',  'action' => 'index',  'sf_format' => 'html',)
+Jun 18 11:05:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 18 11:05:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 18 11:05:42 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Jun 18 11:05:42 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+Jun 18 11:05:42 symfony [debug] {sfPropelLogger} time:  0.000 sec | slow:  NO | mem:    2.0 MB | mempeak:    2.0 MB | memdelta:      0.0 B | SELECT jobeet_job.ID, jobeet_job.CATEGORY_ID, jobeet_job.TYPE, jobeet_job.COMPANY, jobeet_job.LOGO, jobeet_job.URL, jobeet_job.POSITION, jobeet_job.LOCATION, jobeet_job.DESCRIPTION, jobeet_job.HOW_TO_APPLY, jobeet_job.TOKEN, jobeet_job.IS_PUBLIC, jobeet_job.IS_ACTIVATED, jobeet_job.EMAIL, jobeet_job.EXPIRES_AT, jobeet_job.CREATED_AT, jobeet_job.UPDATED_AT FROM `jobeet_job`
+Jun 18 11:05:42 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/modules/job/templates/indexSuccess.php"
+Jun 18 11:05:42 symfony [info] {sfPHPView} Decorate content with "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 11:05:42 symfony [info] {sfPHPView} Render "/home/balfaro/Servir/Proyectos/Jobeet/apps/frontend/templates/layout.php"
+Jun 18 11:05:42 symfony [info] {main} Get slot "title"
+Jun 18 11:05:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 18 11:05:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 18 11:05:42 symfony [info] {sfWebDebugLogger} Configuration 5.86 ms (11)
+Jun 18 11:05:42 symfony [info] {sfWebDebugLogger} Factories 6.97 ms (1)
+Jun 18 11:05:42 symfony [info] {sfWebDebugLogger} Action "job/index" 3.39 ms (1)
+Jun 18 11:05:42 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 1.20 ms (1)
+Jun 18 11:05:42 symfony [info] {sfWebResponse} Send content (34966 o)
