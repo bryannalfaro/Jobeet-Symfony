@@ -1,0 +1,34 @@
+JobeetJob Object
+(
+    [id:protected] => 1737
+    [category_id:protected] => 202
+    [type:protected] => 
+    [company:protected] => Company 121
+    [logo:protected] => 
+    [url:protected] => 
+    [position:protected] => Web Developer
+    [location:protected] => Paris, France
+    [description:protected] => Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    [how_to_apply:protected] => Send your resume to lorem.ipsum [at] company_121.sit
+
+    [token:protected] => job_121
+    [is_public:protected] => 1
+    [is_activated:protected] => 1
+    [email:protected] => job@example.com
+    [expires_at:protected] => 2024-07-19 14:58:02
+    [created_at:protected] => 2024-06-19 14:58:02
+    [updated_at:protected] => 2024-06-19 14:58:02
+    [aJobeetCategory:protected] => 
+    [alreadyInSave:protected] => 
+    [alreadyInValidation:protected] => 
+    [validationFailures:protected] => Array
+        (
+        )
+
+    [_new:BaseObject:private] => 
+    [_deleted:BaseObject:private] => 
+    [modifiedColumns:protected] => Array
+        (
+        )
+
+)
