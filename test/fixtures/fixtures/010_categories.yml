@@ -1,0 +1,6 @@
+# data/fixtures/010_categories.yml
+JobeetCategory:
+  design:        { name: Design, slug: Design }
+  programming:   { name: Programming, slug: Programming }
+  manager:       { name: Manager, slug: Manager }
+  administrator: { name: Administrator, slug: Administrator }
