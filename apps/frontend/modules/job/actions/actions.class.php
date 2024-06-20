@@ -25,12 +25,14 @@ class jobActions extends sfActions
 
   public function executeNew(sfWebRequest $request)
   {
-    $this->form = new JobeetJobForm();
+    $job = new JobeetJob();
+    $job->setType('full-time');
+   
+    $this->form = new JobeetJobForm($job);
   }
 
   public function executeCreate(sfWebRequest $request)
   {
-    $this->forward404Unless($request->isMethod(sfRequest::POST));
 
     $this->form = new JobeetJobForm();
 
@@ -41,29 +43,24 @@ class jobActions extends sfActions
 
   public function executeEdit(sfWebRequest $request)
   {
-    $this->forward404Unless($JobeetJob = JobeetJobPeer::retrieveByPk($request->getParameter('id')), sprintf('Object JobeetJob does not exist (%s).', $request->getParameter('id')));
-    $this->form = new JobeetJobForm($JobeetJob);
+    $this->form = new JobeetJobForm($this->getRoute()->getObject());
   }
 
   public function executeUpdate(sfWebRequest $request)
   {
-    $this->forward404Unless($request->isMethod(sfRequest::POST) || $request->isMethod(sfRequest::PUT));
-    $this->forward404Unless($JobeetJob = JobeetJobPeer::retrieveByPk($request->getParameter('id')), sprintf('Object JobeetJob does not exist (%s).', $request->getParameter('id')));
-    $this->form = new JobeetJobForm($JobeetJob);
-
-    $this->processForm($request, $this->form);
-
-    $this->setTemplate('edit');
+    $this->form = new JobeetJobForm($this->getRoute()->getObject());
+  $this->processForm($request, $this->form);
+  $this->setTemplate('edit');
   }
 
   public function executeDelete(sfWebRequest $request)
   {
     $request->checkCSRFProtection();
-
-    $this->forward404Unless($JobeetJob = JobeetJobPeer::retrieveByPk($request->getParameter('id')), sprintf('Object JobeetJob does not exist (%s).', $request->getParameter('id')));
-    $JobeetJob->delete();
-
-    $this->redirect('job/index');
+ 
+  $job = $this->getRoute()->getObject();
+  $job->delete();
+ 
+  $this->redirect('job/index');
   }
 
   protected function processForm(sfWebRequest $request, sfForm $form)
@@ -73,7 +70,19 @@ class jobActions extends sfActions
     {
       $JobeetJob = $form->save();
 
-      $this->redirect('job/edit?id='.$JobeetJob->getId());
+      $this->redirect('job_show', $job);
     }
   }
+
+  public function executePublish(sfWebRequest $request)
+{
+  $request->checkCSRFProtection();
+ 
+  $job = $this->getRoute()->getObject();
+  $job->publish();
+ 
+  $this->getUser()->setFlash('notice', sprintf('Your job is now online for %s days.', sfConfig::get('app_active_days')));
+ 
+  $this->redirect('job_show_user', $job);
+}
 }

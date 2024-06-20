@@ -5,6 +5,10 @@
   'title',
   sprintf('%s is looking for a %s', $JobeetJob->getCompany(), $JobeetJob->getPosition()))
 ?>
+
+<?php if ($sf_request->getParameter('token') == $JobeetJob->getToken()): ?>
+  <?php include_partial('job/admin', array('job' => $JobeetJob)) ?>
+<?php endif ?>
  
 <div id="job">
   <h1><?php echo $JobeetJob->getCompany() ?></h1>
@@ -36,8 +40,6 @@
   </div>
  
   <div style="padding: 20px 0">
-    <a href="<?php echo url_for('job/edit?id='.$JobeetJob->getId()) ?>">
-      Edit
-    </a>
+  <a href="<?php echo url_for('job_edit', $JobeetJob) ?>">Edit</a>
   </div>
 </div>
