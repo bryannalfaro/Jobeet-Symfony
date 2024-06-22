@@ -16,6 +16,13 @@
     <div id="container">
       <div id="header">
         <div class="content">
+        <?php if ($sf_user->hasFlash('notice')): ?>
+  <div class="flash_notice"><?php echo $sf_user->getFlash('notice') ?></div>
+<?php endif ?>
+ 
+<?php if ($sf_user->hasFlash('error')): ?>
+  <div class="flash_error"><?php echo $sf_user->getFlash('error') ?></div>
+<?php endif ?>
           <h1><a href="<?php echo url_for('homepage') ?>">
             <img src="/legacy/images/logo.jpg" alt="Jobeet Job Board" />
           </a></h1>
@@ -55,6 +62,17 @@
             <?php echo $sf_user->getFlash('error') ?>
           </div>
         <?php endif ?>
+
+        <div id="job_history">
+  Recent viewed jobs:
+  <ul>
+    <?php foreach ($sf_user->getJobHistory() as $job): ?>
+      <li>
+        <?php echo link_to($job->getPosition().' - '.$job->getCompany(), 'job_show_user', $job) ?>
+      </li>
+    <?php endforeach ?>
+  </ul>
+</div>
  
         <div class="content">
           <?php echo $sf_content ?>
